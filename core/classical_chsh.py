@@ -16,7 +16,3 @@ def classical_chsh(num_rounds=10000):
       wins += 1
 
   return wins / num_rounds
-
-# classical_rate = classical_chsh()
-# print(f"Classical Win rate: {classical_rate:.4f}")
-# print(f"Expected classical maximum: 0.75")
